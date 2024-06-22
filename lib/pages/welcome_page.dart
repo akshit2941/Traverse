@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:traverse/misc/colors.dart';
+import 'package:traverse/pages/login_page.dart';
 import 'package:traverse/widgets/app_large_text.dart';
 import 'package:traverse/widgets/app_text.dart';
 import 'package:traverse/widgets/responsive_button.dart';
@@ -63,7 +64,16 @@ class _WelcomePageState extends State<WelcomePage> {
                         ),
                       ),
                       const SizedBox(height: 40),
-                      const ResponsiveButton(),
+                      ResponsiveButton(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const LoginPage(),
+                            ),
+                          );
+                        },
+                      ),
                     ],
                   ),
                   Column(
