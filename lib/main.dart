@@ -15,6 +15,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Sofia' 'Sofia_Regular',
+        textTheme: const TextTheme(
+          bodySmall: TextStyle(fontFamily: 'Sofia_Regular'),
+          bodyMedium: TextStyle(fontFamily: 'Sofia'),
+          bodyLarge: TextStyle(fontFamily: 'Sofia'),
+        ),
       ),
       home: const WelcomePage(),
     );

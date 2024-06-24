@@ -17,6 +17,7 @@ class AppText extends StatelessWidget {
     return Text(
       text,
       style: TextStyle(
+        fontFamily: 'Sofia_Regular',
         color: color,
         fontSize: size,
         // fontWeight: FontWeight.bold,

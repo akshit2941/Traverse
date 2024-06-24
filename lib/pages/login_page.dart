@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:traverse/misc/colors.dart';
+import 'package:traverse/pages/nav_page.dart';
 import 'package:traverse/widgets/app_large_text.dart';
 import 'package:traverse/widgets/my_button.dart';
 import 'package:traverse/widgets/textfield.dart';
@@ -70,7 +71,14 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(height: 80),
                     MyButton(
                       text: "Login",
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const NavPage(),
+                          ),
+                        );
+                      },
                     ),
                     const SizedBox(height: 20),
                     Row(
