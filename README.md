@@ -1,16 +1,15 @@
-# traverse
+# Traverse
 
-A new Flutter project.
+TravelBuddy is a Flutter-based travel app that allows users to share their travel experiences, join trips posted by others, and receive personalized recommendations. The app fosters a community where travelers can connect, plan, and communicate effectively.
 
-## Getting Started
+## Key Features
 
-This project is a starting point for a Flutter application.
+- **Trip Sharing**: Users can post their travel itineraries and experiences for others to see.
+- **Join Trips**: Users can browse and join trips that interest them, making travel planning collaborative.
+- **Personalized Recommendations**: The app offers tailored travel suggestions based on user preferences and interests.
+- **Group Chat**: Users can create groups to chat with fellow travelers, share tips, and coordinate plans.
 
-A few resources to get you started if this is your first Flutter project:
+## Technology Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- **Dart**: The programming language used for developing Flutter applications.
